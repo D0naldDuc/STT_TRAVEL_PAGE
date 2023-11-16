@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USVI Travel Guide</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+
+
+
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007acc;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #005580;
+        }
+
+        section {
+            margin: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .weather-widget {
+            margin: 20px;
+        }
+
+    </style>
+
+    <header>
+        <h1>Welcome to the US Virgin Islands</h1>
+        <nav>
+            <ul>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#rental-cars">Rental Cars</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#shopping">Shopping</a></li>
+            </ul>
+        </nav>
+    </header>
+<video autoplay muted loop id="myVideo" width="1263" >
+  <source src="rain.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+    <section id="attractions">
+        <h2>Attractions/What to Do</h2>
+        <p>Explore the breathtaking <a href="https://magensbayauthority.org/">Magens Bay</a>, hike through the historic <a href="https://www.hasselisland.org/">Hassel Island</a>, discover the vibrant <a href="https://coralworldvi.com/">Coral World Ocean Park</a>, and take a scenic ride on the <a href="https://www.paradisepointvi.com/schedule">Skyride to Paradise Point</a> for stunning views.</p>
+        <!-- Add more content as needed -->
+    </section>
+
+    <section id="hotels">
+        <h2>Hotels</h2>
+        <p>Indulge in luxury at <a href="https://www.ritzcarlton.com/">The Ritz-Carlton</a>, enjoy a beachfront stay at <a href="https://www.marriott.com/en-us/hotels/sttak-morningstar-buoy-haus-beach-resort-at-frenchmans-reef-autograph-collection/overview/">Frenchman's Reef & Morning Star Marriott Beach Resort</a>, experience local charm at <a href="https://bolongobay.com/">Bolongo Bay Beach Resort</a>, and relax at <a href="https://www.marriott.com/en-us/hotels/sttwj-the-westin-st-john-resort-villas/overview/">The Westin St. John Resort Villas</a>.</p>
+        <!-- Add more content as needed -->
+    </section>
+
+    <section id="rental-cars">
+        <h2>Rental Cars</h2>
+        <p>Explore the islands at your own pace with a rental car from <a href="https://www.avis.com/en/locations/cv/saint-thomas/stt">Avis</a>, <a href="https://www.budget.com/en/locations/cv/st-thomas">Budget</a>, <a href="https://www.hertzstt.com/">Hertz</a>, or <a href="https://usvi-on-line.com/st-thomas/car-rental/dependable-car-rental.html">Dependable Car Rental</a>.</p>
+        <!-- Add more content as needed -->
+    </section>
+
+    <section id="restaurants">
+        <h2>Restaurants</h2>
+        <p>Savor delicious seafood at <a href="https://www.mafolie.com/mafolie-restaurant">The Mafolie Restaurant</a>, indulge in Caribbean flavors at <a href="https://www.oceanavi.com/">Oceana Restaurant</a>, enjoy a beachside meal at <a href="https://www.yelp.com/biz/morgans-mango-saint-john">Morgans Mango</a>, and experience local dishes at <a href="https://gladyscafe.com/">Gladys' Cafe</a>.</p>
+        <!-- Add more content as needed -->
+    </section>
+
+    <section id="shopping">
+        <h2>Shopping</h2>
+        <p>Shop for unique souvenirs at <a href="https://mongoosejunctionstjohn.com/">Mongoose Junction</a>, explore the boutiques at <a href="https://virginislandsthisweek.com/st-thomas/st-thomas-shopping/havensight-shopping-map/">Yacht Haven Grande</a>, visit the local markets for handmade crafts, and find luxury brands at <a href="https://visitstthomas.com/havensight_mall.html">Havensight Mall</a>.</p>
+        <!-- Add more content as needed -->
+    </section>
+
+    <!-- Add more sections as needed -->
+
+    <!-- Weather Widget -->
+    <div class="weather-widget">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/18d34n64d95/st-thomas/"
+            data-label_1="ST. THOMAS" data-label_2="WEATHER" data-theme="original">ST. THOMAS WEATHER</a>
+        <script>
+            // Weather widget script
+            !function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = 'https://weatherwidget.io/js/widget.min.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, 'script', 'weatherwidget-io-js');
+        </script>
+    </div>
+
+</body>
+
+</html>
